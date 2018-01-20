@@ -1,0 +1,8 @@
+body {
+  position: absolute;
+  display: block;
+}
+
+content {
+  padding-top: 5em;
+}
