@@ -1,8 +1,7 @@
 body {
-  position: absolute;
   display: block;
 }
 
-content {
+.content {
   padding-top: 5em;
 }
