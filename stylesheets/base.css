@@ -2,6 +2,16 @@ body {
   display: block;
 }
 
+div {
+  font-family: "Courier";
+}
+
 .content {
   padding-top: 5em;
+}
+
+.bottom {
+  padding-bottom: .5em;
+  position: fixed;
+  bottom: 0px;
 }
