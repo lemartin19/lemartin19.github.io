@@ -36,3 +36,7 @@ div {
 #greeting > div {
   background-color: transparent;
 }
+
+#about {
+  font-size: 1.5em;
+}
