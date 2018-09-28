@@ -1,8 +1,14 @@
 body {
+  background: url(images/birds.jpg) no-repeat center center fixed;
   display: block;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 div {
+  background-color: white;
   font-family: "Courier";
 }
 
@@ -14,4 +20,19 @@ div {
   padding-bottom: .5em;
   position: fixed;
   bottom: 0px;
+}
+
+.center {
+  padding: 100% 0;
+}
+
+#greeting {
+  height: 100vh;
+  width: 350px;
+  color: white;
+  background-color: transparent;
+}
+
+#greeting > div {
+  background-color: transparent;
 }
