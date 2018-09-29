@@ -12,6 +12,11 @@ div {
   font-family: "Courier";
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .content {
   padding-top: 5em;
 }
