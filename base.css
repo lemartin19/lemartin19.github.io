@@ -11,6 +11,10 @@ a {
   text-decoration: inherit;
 }
 
+.center {
+  padding: 30vh 40vw;
+}
+
 .content {
   padding-top: 5em;
 }
@@ -19,10 +23,6 @@ a {
   padding-bottom: .5em;
   position: fixed;
   bottom: 0px;
-}
-
-.center {
-  padding: 30vh 40vw;
 }
 
 #greeting {
