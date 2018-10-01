@@ -41,5 +41,19 @@ a {
 }
 
 #about {
-  font-size: 1.5em;
+  font-size: 1.25em;
+}
+/*
+#cisco {
+  background: url(images/cisco.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+#contact {
+  background: #f8f8f8;
+  height: 3em;
+  width: 100vw;
 }
