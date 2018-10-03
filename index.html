@@ -5,31 +5,32 @@
     <title>Lynnsey Martin</title>
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="base.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
 
   <body data-spy="scroll" data-target=".navbar">
     <!-- Page navigation -->
-    <div class="header navbar navbar-default navbar-fixed-top">
+    <div class="header navbar navbar-light navbar-expand-sm fixed-top bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Lynnsey Martin</a>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="navbar-nav navbar-right">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
 
     <!-- Greeting -->
-    <div class="container content" id="greeting">
+    <div class="container-fluid content text-white" id="greeting">
       <div class="center mx-auto">
-        <h1 style="font-size: 5em">Hi!</h1>
-        <h3 style="font-size: 3em"><i>I'm Lynnsey.</i></h3>
+        <h1 class="display-3">Hi!</h1>
+        <h1><i>I'm Lynnsey.</i></h1>
       </div>
     </div>
 
@@ -44,56 +45,56 @@
     <!-- Experience -->
     <div class="container content" id="experience">
       <h1>Experience</h1>
-      <div id="cisco">
+      <div>
         <div id="cisco-head">
-          <a class="btn" data-toggle="collapse" data-target="#cisco-body" role="button">
+          <a class="btn text-left" data-toggle="collapse" data-target="#cisco-body" role="button">
             <h3>Cisco <small>Software Engineering Coop</small></h3>
             <h5 class="text-left"><i>July 2018 - December 2018, San Jose CA</i></h5>
           </a>
         </div>
-        <div class="collapse" id="cisco-body">
+        <div class="collapse px-4" id="cisco-body">
           <p>My first coop at Northeastern, I came to Cisco as a member of their NFVIS team, working on the operating system for enterprise devices like ENCS. During my time on the team, I worked on new client-facing features like Single IP and Secure Overlay.</p>
           <p><b><i>Things I loved:</b> amazing managers, interesting new challenges in every feature, open work atmosphere</i></p>
           <p><b><i>Things I learned:</b> work-life balance matters, test EVERYTHING, simple networking principles, basic knowledge of virtual machines and operating systems</i></p>
         </div>
       </div>
 
-      <div class="action">
+      <div>
         <div id="action-head">
           <a class="btn" data-toggle="collapse" data-target="#action-body" role="button">
             <h3>Northeastern University Action Lab <small>Research Assistant</small></h3>
             <h5 class="text-left"><i>September 2016 - May 2018, Boston MA</i></h5>
           </a>
         </div>
-        <div class="collapse" id="action-body">
+        <div class="collapse px-4" id="action-body">
           <p>Coming into college, I hoped to get involved in research on campus immediately - and found a path to pursue that through a grant in the Northeastern Honors Program. I worked in the Action Lab as an Honors Undergraduate Early Research Assistant and myself getting involved in a number of different projects. From data classification to designing my first website, I began to appreciate the broader applications of computer science in other fields.</p>
           <p><b><i>Things I loved:</b> lots of independence and responsibility, the diversity of challenges, seeing a project from start to finish</i></p>
           <p><b><i>Things I learned:</b> full stack web development, HTML/CSS, JavaScript, importance of documenting code, the need for mentors or advisors, basic web design principles</i></p>
         </div>
       </div>
 
-      <div class="smile">
+      <div>
         <div id="smile-head">
           <a class="btn" data-toggle="collapse" data-target="#smile-body" role="button">
             <h3>Northeastern University SMILE Lab <small>REU D3 Participant</small></h3>
             <h5 class="text-left"><i>June 2017 - August 2017, Boston MA</i></h5>
           </a>
         </div>
-        <div class="collapse" id="smile-body">
+        <div class="collapse px-4" id="smile-body">
           <p>Applying for a research position for the summer after my sophomore year of college, I was accepted into a program through the National Science Foundation to study big data and machine learning. For 10 weeks, I worked in a machine learning research lab on Northeastern's campus to help refine algorithms that extracted temporally segmented features from videos in order to improve action prediction. At the end of the experience, I presented my research to a group of my peers, professors, and researchers.</p>
           <p><b><i>Things I loved:</b> learning the math behind machine learning, creating meaninful results in a lab setting</i></p>
           <p><b><i>Things I learned:</b> fundamentals of neural networks, statistics, how to write and read research papers, research is not my thing, broader knowledge of machine learning algorithms, the importance of communication in an office</i></p>
         </div>
       </div>
 
-      <div class="arl">
+      <div>
         <div id="arl-head">
           <a class="btn" data-toggle="collapse" data-target="#arl-body" role="button">
             <h3>Applied Research Laboratories <small>Science and Engineering Apprentice</small></h3>
             <h5 class="text-left"><i>June 2016 - August 2016, Austin TX</i></h5>
           </a>
         </div>
-        <div class="collapse" id="arl-body">
+        <div class="collapse px-4" id="arl-body">
           <p>Before coming to college, I wanted to see if what I was planning to do was actually the right choice for me, so I spent the summer working in the Applied Research Laboratories at UT Austin. There I began to research principles of decision tree based machine learning algorithms and the features that had the most profound effects on their successful predicitons.</p>
           <p><b><i>Things I loved:</b> learning about a number of different topics, the community in the internship, practical experience in computer science</i></p>
           <p><b><i>Things I learned:</b> introductory machine learning principles, how to read another person's code, practical applications of machine learning</i></p>
@@ -107,8 +108,8 @@
     </div>
 
     <!-- Footer -->
-    <footer class="footer bottom" id="contact">
-      <div class="container" style="padding-top: 1em;">
+    <footer class="footer bg-light" id="contact">
+      <div class="container pt-3">
         <text style="margin:auto">Questions? Ask me!</text>&nbsp
         <a href="mailto:martin.ly@husky.neu.edu"><span class="glyphicon glyphicon-envelope"></span></a>&nbsp
         <a href=""><span class="glyphicon glyphicon-user"></span></a>&nbsp
