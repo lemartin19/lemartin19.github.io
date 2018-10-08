@@ -6,10 +6,21 @@
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
     <link href="base.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function() {
+        $('.details').click(function() {
+          $('.details span').toggle();
+        });
+      });
+      console.log("exit");
+    </script>
   </head>
 
   <body data-spy="scroll" data-target=".navbar">
@@ -109,7 +120,7 @@
         <h3 class="pt-3">Music Analysis Website</h3>
         <p>A pet project of mine, the website started on a basic idea to try and understand my music a little better. As both a music and a data nerd, I loved being able to dissect how I listened - and wanted more detail than Spotify was providing.</p>
         <a class="details" data-toggle="collapse" href="#spotify-web-details">
-          <span class="more">more</span><span class="less">less</span>
+          <span class="more">more <i class="fas fa-angle-down"></i></span><span class="less">less <i class="fas fa-angle-up"></i></span>
         </a>
         <div class="collapse pt-4 px-4"  id="spotify-web-details">
           <h6>Technologies</h6>
@@ -125,7 +136,7 @@
         <h3 class="pt-3">Personal Website</h3>
         <p>After a rough start with the Action Lab website, creating my own personal website has been my goal to facilitate a more accessible and stable entrance into web development. Here, it is my goal to become more familiar with some basic principles of web design and the different technologies available to make it easier. I've begun to pay attention the finer details of front end development while studying design and structure for longer term contributions.</p>
         <a class="details" data-toggle="collapse" href="#personal-web-details">
-          <span class="more">more</span><span class="less">less</span>
+          <span class="more">more <i class="fas fa-angle-down"></i></span><span class="less">less <i class="fas fa-angle-up"></i></span>
         </a>
         <div class="collapse pt-4 px-4" id="personal-web-details">
           <h6>Technologies</h6>
@@ -141,7 +152,7 @@
         <h3 class="pt-3">Action Lab Website</h3>
         <p>My first serious endeavour into web design, this project was guided and designed by the Action Lab at Northeastern University. In order to increase the ease with which data could be collected, a series of "prediction" games would be moved online. The website therefore had requirements to align with these needs: user data needed to be accurately and securely recorded, the data had to be accessible for easy analysis, and the games needed to be usable from any average home computer. As the project continued, there were of course new guidelines that were realized and standards to be met, but these requirements drove my initial designs.</p>
         <a class="details" data-toggle="collapse" href="#action-web-details">
-          <span class="more">more</span><span class="less">less</span>
+          <span class="more">more <i class="fas fa-angle-down"></i></span><span class="less">less <i class="fas fa-angle-up"></i></span>
         </a>
         <div class="collapse pt-4 px-4" id="action-web-details">
           <h6>Technologies</h6>
@@ -158,9 +169,10 @@
     <footer class="footer bg-light mt-3" id="contact">
       <div class="container py-3">
         <text style="margin:auto">Questions? Ask me!</text>&nbsp
-        <a href="mailto:martin.ly@husky.neu.edu"><span class="glyphicon glyphicon-envelope"></span></a>&nbsp
-        <a href=""><span class="glyphicon glyphicon-user"></span></a>&nbsp
-        <a href=""><span class="glyphicon glyphicon-thumbs-up"></span></a>&nbsp
+        <a href="mailto:martin.ly@husky.neu.edu"><i class="fas fa-envelope"></i></a>&nbsp
+        <a href="https://www.linkedin.com/in/lynnsey-martin-5a68b4134/"><i class="fab fa-linkedin"></i></a>&nbsp
+        <a href="https://www.facebook.com/lynnsey.martin.1"><i class="fab fa-facebook-square"></i></a>&nbsp
+        <a href="https://github.com/lemartin19"><i class="fab fa-github"></i></a>&nbsp
       </div>
     </footer>
   </body>
