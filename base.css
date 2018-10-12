@@ -22,11 +22,11 @@ a:hover {
 }
 
 .more {
-  display: none;
+  display: block;
 }
 
 .less {
-  display: block;
+  display: none;
 }
 
 #greeting {
