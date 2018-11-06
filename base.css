@@ -13,6 +13,11 @@ a:hover {
   text-decoration: inherit;
 }
 
+.blog a {
+  color: #808080;
+  text-decoration: inherit;
+}
+
 .center {
   padding: 30vh 40vw;
 }
@@ -33,6 +38,16 @@ a:hover {
   height: 100vh;
   width: 100vw;
   background: url(images/birds.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#bad-vegan {
+  height: 100vh;
+  width: 100vw;
+  background: url(images/lake.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

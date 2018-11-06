@@ -16,7 +16,7 @@
     <script>
       $(document).ready(function() {
         $('.details').click(function() {
-          $('.details span').toggle();
+          $(this).children($('span')).toggle();
         });
       });
       console.log("exit");
@@ -32,6 +32,7 @@
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blogs">Blogs</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -162,6 +163,31 @@
           <h6>Future</h6>
           <p>I parted with this project for good as I began to work full time for Cisco in the summer of 2018. I had worked on the website off and on for about two years and was excited to start from scrath on new projects or my own. I have passed on my work, and the project will continue to be developed with a new grant the Action Lab received for a research proposal using the data collected to be collected with the games.</p>
         </div>
+      </div>
+    </div>
+
+    <!-- Blogs -->
+    <div class="container content" id="blogs">
+      <h1>Blogs</h1>
+      <div class="carousel slide" id="blog-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#blog-carousel" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner" style="height: 50vh;">
+          <div class="carousel-item active h-100" id="bad-vegan">
+            <div class="pt-5" style="padding: 0 25%;">
+              <a href="blog/bad_vegan.html"><h1 class="pt-5 mt-5 display-3 text-white">Bad Vegan</h1></a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#blog-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#blog-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
 
